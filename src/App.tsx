@@ -141,14 +141,12 @@ export default function App() {
         </div>
 
         {/* CTA */}
-        <a
-          href="https://giftclick.org/aff_c?offer_id=1178&aff_id=148566"
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          onClick={() => window.open("https://giftclick.org/aff_c?offer_id=1178&aff_id=148566", "_blank", "noopener,noreferrer")}
           className="w-full bg-red-600 hover:bg-red-700 active:scale-[0.98] transition-all text-white font-bold text-base py-4 rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-red-200 mb-4"
         >
           Get Started <ArrowRight size={18} />
-        </a>
+        </button>
 
         {/* Trust badges */}
         <div className="flex items-center justify-center gap-6 mb-5">
@@ -263,14 +261,12 @@ export default function App() {
         <p className="text-sm text-gray-400 text-center mb-5">
           Join thousands of members already shopping at Target.
         </p>
-        <a
-          href="https://giftclick.org/aff_c?offer_id=1178&aff_id=148566"
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          onClick={() => window.open("https://giftclick.org/aff_c?offer_id=1178&aff_id=148566", "_blank", "noopener,noreferrer")}
           className="w-full bg-red-600 hover:bg-red-700 active:scale-[0.98] transition-all text-white font-bold text-base py-4 rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-red-900/40"
         >
           Claim Your Gift Card <ArrowRight size={18} />
-        </a>
+        </button>
       </div>
 
       {/* Footer */}
